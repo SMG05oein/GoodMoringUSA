@@ -10,7 +10,7 @@ function App() {
       return (
         <div className="App">
             <h1>count:{count}</h1>
-            <CounterBox count={count} />
+            <CounterBox/>
         </div>
       );
 }
